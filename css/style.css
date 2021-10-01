@@ -1,0 +1,321 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/Helvetica Neue-Black.woff2") format("woff2"),
+    url("../fonts/Helvetica Neue-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/Helvetica Neue-Roman.woff2") format("woff2"),
+    url("../fonts/Helvetica Neue-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+
+  /* font-family: "Helvetica Neue", sans-serif; */
+  /* background-color: #f5f5f5; */
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  /* padding: 20px; */
+  /*  */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* =================================================== */
+/* header */
+.header {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #323232;
+  padding: 20px 0;
+  margin-bottom: 100px;
+}
+/* provide */
+.provide-content {
+  width: 100%;
+  max-width: 414px;
+  min-height: 464px;
+  padding: 20px;
+  margin: 0 auto 100px;
+  box-shadow: 2px 2px 10px #f78434;
+}
+.provide-title {
+  display: block;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+.provide-text {
+  display: block;
+  margin-bottom: 20px;
+}
+.provide-text-mb {
+  margin-bottom: 40px;
+}
+.provide-button {
+  display: block;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  min-width: 172px;
+  max-width: 172px;
+  padding: 17px 39px;
+  background-color: #f78434;
+  border-radius: 29px;
+  box-shadow: 2px 2px 5px #f78434;
+}
+
+/* seller */
+.seller-content {
+  width: 100%;
+  max-width: 540px;
+  min-height: 365px;
+  padding: 40px 88px;
+  margin: 0 auto 100px;
+  text-align: center;
+  border: 3px solid #f78434;
+  box-shadow: 1px 1px 10px #340af0;
+}
+.seller-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+.seller-title {
+  display: block;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 63px;
+  letter-spacing: 0.8px;
+  margin-bottom: 1px;
+}
+.seller-text {
+  display: block;
+  letter-spacing: 1.15px;
+  margin-bottom: 25px;
+}
+.seller-button {
+  display: block;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f78434;
+  min-width: 172px;
+  max-width: 172px;
+  padding: 17px 39px;
+  background: #fff;
+  border-radius: 29px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 1px #f78434, -1px -1px 1px;
+}
+
+/* reviews-content */
+.reviews-content {
+  width: 100%;
+  max-width: 350px;
+  min-height: 425px;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 1px 1px 10px #340af0;
+  margin: 0 auto;
+}
+.reviews-content div {
+  padding: 31px 29px;
+}
+.reviews-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  box-shadow: 1px 5px 10px #080808;
+}
+.reviews-text {
+  display: block;
+  letter-spacing: 1.15px;
+  margin-bottom: 23px;
+}
+.reviews-name {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.6px;
+  margin-bottom: 1px;
+}
+.reviews-city {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+  color: #58bebf;
+  text-shadow: 1px 1px 0.5px #272727;
+}
+
+/* main */
+/* choose */
+.main {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #323232;
+}
+.choose-content {
+  width: 100%;
+  max-width: 255px;
+  height: 206px;
+  background: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 24px;
+  margin: 0 auto 100px;
+}
+.choose-title {
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.275px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.linegreen {
+  width: 56px;
+  height: 2px;
+  background-color: #34c759;
+  margin-bottom: 24px;
+}
+.choose-text {
+  display: block;
+  letter-spacing: -0.1625px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* dish */
+.dish-content {
+  width: 100%;
+  max-width: 350px;
+  min-height: 495px;
+  background-color: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin: 0 auto 100px;
+}
+.dish-info {
+  padding: 30px;
+}
+.dish-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+.dish-title {
+  display: block;
+  font-size: 32px;
+  line-height: 30px;
+  color: #d9d9d9;
+  margin-bottom: 1px;
+}
+.dish-subtitle {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.15px;
+  color: #a4a8b2;
+  margin-bottom: 20px;
+}
+.dish-text {
+  display: block;
+  letter-spacing: -0.1625px;
+  color: #85878c;
+  margin-bottom: 26px;
+}
+.dish-box {
+  height: 40px;
+}
+.dish-stars {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 14px;
+}
+.dish-number {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 43px;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #b3b3b3;
+}
+
+.dish-button {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+
+  min-width: 90px;
+  max-width: 90px;
+  padding: 9px 18px;
+  background-color: #262626;
+  border: 2px solid #303030;
+  border-radius: 30px;
+  vertical-align: middle;
+}
